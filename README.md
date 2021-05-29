@@ -86,7 +86,7 @@ Default route via R1:
 ip route 0.0.0.0 0.0.0.0 192.168.123.253
 ```
 
-DHCP server with a pool of 20 IP addresses:
+DHCPv4 server with a pool of 20 IP addresses:
 
 ```
 ip dhcp excluded-address 192.168.123.1 192.168.123.10
